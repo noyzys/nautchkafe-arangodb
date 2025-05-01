@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     // ArangoDB stuff
-    implementation("com.arangodb:arangodb-java-driver:7.3.11")
+    implementation("com.arangodb:arangodb-java-driver:7.17.1")
 
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
